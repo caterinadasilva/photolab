@@ -83,3 +83,31 @@ nav {
     background-color: #fff;
     background-position: 15% 100%;
 }
+
+.footer	{
+    font-weight: 700;
+    padding: 2em 0 0;
+	&__links {
+		&__link {
+			display: inline-block;
+			border-left: 2px solid #009688;
+			&:first-child {
+				border: none;
+				a {
+					padding-left: 0;
+				}
+			}
+			a {
+				color: #000;
+				text-transform: uppercase;
+				padding: 0 10px;
+				&:hover,
+				&:focus,
+				&:active,
+				&:active:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
