@@ -1,4 +1,4 @@
-#PhotoLab
+# PhotoLab
 Desarrollo del Ejercicio Evaluado de la Lección 43: Gulp
 
 ## Descripción
